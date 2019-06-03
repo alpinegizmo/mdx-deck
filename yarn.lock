@@ -1700,6 +1700,21 @@
     npmlog "^4.1.2"
     write-file-atomic "^2.3.0"
 
+"@mdx-deck/components@^2.3.2":
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/@mdx-deck/components/-/components-2.3.2.tgz#1c51b4cf905d098b75e845b1431c6a2719a70c84"
+  integrity sha512-Q1hZMVGYsBSfsNuDhxn8POjoiUIiB1xO8kHQWoicY+1P0BoV0rV9xBPBdEQNHmPRBnrMLpHPXjxw1gPxlUlf+g==
+  dependencies:
+    "@emotion/core" "^10.0.7"
+    "@emotion/styled" "^10.0.7"
+    "@mdx-js/react" "^1.0.1"
+    "@reach/router" "^1.2.1"
+    emotion-theming "^10.0.7"
+    hhmmss "^1.0.0"
+    lodash.merge "^4.6.1"
+    react-swipeable "^5.0.1"
+    resize-observer-polyfill "^1.5.1"
+
 "@mdx-js/mdx@^1.0.1":
   version "1.0.10"
   resolved "https://registry.yarnpkg.com/@mdx-js/mdx/-/mdx-1.0.10.tgz#9622a188c5d9dc29c96c14bea963d2e326bc8789"
@@ -9624,6 +9639,53 @@ mdurl@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/mdurl/-/mdurl-1.0.1.tgz#fe85b2ec75a59037f2adfec100fd6c601761152e"
   integrity sha1-/oWy7HWlkDfyrf7BAP1sYBdhFS4=
+
+mdx-deck@^2.3.2:
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/mdx-deck/-/mdx-deck-2.3.2.tgz#4f9826d6169dc13d02b80572176e84ab64f86580"
+  integrity sha512-x67SPzz8EoJWkB1HJoKB5WRkvERdHeJM3tWnool6FLp5LkuHuo3+Smu1i4xUIxW+xexLjwbfJqGDRvt1GS0TyQ==
+  dependencies:
+    "@babel/core" "^7.3.4"
+    "@babel/plugin-proposal-class-properties" "^7.3.4"
+    "@babel/plugin-proposal-export-default-from" "^7.0.0"
+    "@babel/plugin-proposal-export-namespace-from" "^7.2.0"
+    "@babel/plugin-syntax-dynamic-import" "^7.0.0"
+    "@babel/preset-env" "^7.3.4"
+    "@babel/preset-react" "^7.0.0"
+    "@emotion/babel-preset-css-prop" "^10.0.7"
+    "@emotion/core" "^10.0.7"
+    "@emotion/styled" "^10.0.7"
+    "@mdx-deck/components" "^2.3.2"
+    "@mdx-deck/layouts" "^2.3.2"
+    "@mdx-deck/loader" "^2.3.2"
+    "@mdx-deck/themes" "^2.3.2"
+    "@mdx-deck/webpack-html-plugin" "^2.3.2"
+    "@mdx-js/mdx" "^1.0.1"
+    "@mdx-js/react" "^1.0.1"
+    babel-loader "^8.0.5"
+    chalk "^2.4.2"
+    connect "^3.6.6"
+    connect-history-api-fallback "^1.6.0"
+    css-loader "^2.1.0"
+    emotion-theming "^10.0.7"
+    find-up "^3.0.0"
+    friendly-errors-webpack-plugin "^1.7.0"
+    meow "^5.0.0"
+    mini-css-extract-plugin "^0.6.0"
+    pkg-conf "^3.0.0"
+    react "^16.8.3"
+    react-dev-utils "^8.0.0"
+    react-dom "^16.8.3"
+    remark-emoji "^2.0.2"
+    remark-unwrap-images "^0.2.0"
+    rimraf "^2.6.3"
+    serve-static "^1.13.2"
+    webpack "^4.29.6"
+    webpack-dev-middleware "^3.6.0"
+    webpack-hot-client "^4.1.1"
+    webpack-hot-middleware "^2.24.3"
+    webpack-merge "^4.2.1"
+    webpackbar "^3.1.5"
 
 meant@^1.0.1:
   version "1.0.1"
