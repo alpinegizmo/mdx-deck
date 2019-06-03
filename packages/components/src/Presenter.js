@@ -82,7 +82,11 @@ export const Presenter = props => {
               )}
             </Zoom>
           </div>
-          <div style={{ fontSize: '18px', lineHeight: 1.4 }}>{notes}</div>
+          <div
+            style={{ fontSize: '18px', lineHeight: 1.4, margin: '1vw 1.5vw' }}
+          >
+            {notes}
+          </div>
         </div>
       </div>
       <div
