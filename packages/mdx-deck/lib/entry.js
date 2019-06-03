@@ -1,6 +1,6 @@
 import React from 'react'
 import { render } from 'react-dom'
-import { MDXDeck } from '@mdx-deck/components'
+import { MDXDeck } from '@alpinegizmo/mdx-deck-components'
 
 const mod = require(FILENAME)
 const { default: mdx, slides, theme, themes } = mod

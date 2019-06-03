@@ -1,5 +1,5 @@
 {
-  "name": "@mdx-deck/components",
+  "name": "@alpinegizmo/mdx-deck-components",
   "version": "2.3.2",
   "main": "src/index.js",
   "author": "Brent Jackson <jxnblk@gmail.com>",
